@@ -48,7 +48,7 @@ class ViewController: UIViewController {
 //        textField.text = String(n2)
         
         if let cNum = Int(textField.text ?? ""), cNum > 0 {
-            let n2 : Int = cNum - 1
+            let n2 : Int = cNum + 1
             textField.text = String(n2)
         } else {
             let alert = UIAlertController(title: "Warning", message: "Value must be greater than 0", preferredStyle: .alert)
