@@ -96,7 +96,7 @@ var str2 = "I love Swift."
 var str3 = "Hello, world!"
 
 print(str1 == str2) //false
-print(str1 == str3) //true  note - also check character caser
+print(str1 == str3) //true  note - also check character case
 
 str1.append(str2)
 print(str1)
@@ -205,8 +205,8 @@ print(anything) //0 default value is a null value (nil)
 var nn:Int?
 var someAnotherNum:Int!
 
-print(nn) //nil
-print(someAnotherNum) //nil
+// print(nn) //nil
+// print(someAnotherNum) //nil
 
 
 //difference ? and !
